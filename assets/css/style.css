@@ -1,10 +1,14 @@
 .donate button {
-    background: #FF7000;
+    background: #414770;
     border-radius: 5px;
     width: 165px;
     height: 55px;
     left: 1380px;
     top: 32px;
+}
+
+button.btn-primary.nav-link.px-2 {
+    color: #C6D8D3;
 }
 
 .line{
@@ -31,7 +35,7 @@ p{
 } */
 
 .container-fluid.navi{
-    background-color: grey;
+    background-color: #c6d8d3;
 }
 
 
@@ -40,9 +44,44 @@ li.nav-item {
     align-items: center;
 }
 
+a.nav-link {
+    color: #414770;
+}
+
+a.nav-link span {
+    color: #d84797;
+}
 
 
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+/* Modal */
+
+.modal-content.rounded-4.shadow {
+    background: #c6d8d3;
+}
+
+button.w-100.mb-2.btn.btn-lg.rounded-3.btn-primary {
+    background: #414770;
+    color: #c6d8d3;
+    border: none;
+}
+
+h1.fw-bold.mb-0.fs-2 {
+    color: #414770;
+}
+
+h2.fs-5.fw-bold.mb-3 {
+    color: #414770;
+}
+
+p.fs-5.py-3.mb-3 {
+    color: #414770;
+}
 
 
 
