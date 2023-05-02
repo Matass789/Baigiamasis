@@ -1,0 +1,422 @@
+.donate button {
+    background: #FF7000;
+    border-radius: 5px;
+    width: 165px;
+    height: 55px;
+    left: 1380px;
+    top: 32px;
+}
+
+.line{
+    background: #FF7000;
+    margin-top: 32px;
+    margin-bottom: 39px;
+    width: 100px;
+    height: 3px;
+    left: 910px;
+    top: 1257px;
+}
+
+
+
+
+
+h1,
+p{
+    margin: 0;
+}
+
+/* .d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none{
+    margin-right: 1!important;
+} */
+
+.container-fluid.navi{
+    background-color: grey;
+}
+
+
+li.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid.hero {
+    height: calc(100vh - 70px);
+    background-color: black;
+    width: 100%;
+    left: 0px;
+    top: 115px;
+}
+
+
+.container-fluid.hero h1{
+    color: #FFFFFF;
+    width: 535px;
+    height: 138px;
+    left: 378px;
+    top: 403px;
+
+}
+
+.container-fluid.hero h1 span{
+    color: #FF7000;
+    width: 535px;
+    height: 138px;
+    left: 378px;
+    top: 403px;
+}
+
+.container-fluid.hero p{
+    color: #666666;
+    }
+
+.hero button{
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+
+.container-fluid.welcome{
+    background-color: white;
+    height: 5000px;
+}
+
+.container-fluid.welcome h1 {
+    color: #333333;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 69px;
+    text-align: center;
+    width: 457px;
+    height: 69px;
+
+}
+
+.container-fluid.welcome h1 span{
+    color: #FF7000;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 69px;
+    text-align: center;
+    width: 457px;
+    height: 69px;
+    
+}
+
+.container-fluid.welcome p{
+    color: #666666;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.container-fluid.welcome{
+    height: 150px;
+    margin-top: 126px;
+    margin-bottom: 32px;
+
+}
+
+
+
+
+
+
+
+
+
+.container-fluid.main.d-flex.justify-content-center {
+    /* height: 679px;   ant sekciju dydzio geriau nededame */
+    background: white;
+}
+
+.cards{
+    margin-top: 115px;
+}
+
+.card-head {
+    height: 190px;
+    background-color: #666666; 
+}
+
+.card-body {
+    height: 100%;
+}
+
+.volunteer p{
+    text-align: center;
+    height: 24px;
+}
+
+
+.pavadinimas h1{
+    text-align: center;
+    height: 80px;
+}
+
+.text p{
+    text-align: center;
+}
+
+.button {
+    justify-content: center;
+}
+
+.donatend{
+    justify-content: center;
+    margin-top: 61px;
+    margin-bottom: 61px;
+}
+
+.donatend button {
+    background: #FF7000;
+    border-radius: 5px;
+    width: 191px;
+    height: 55px;
+    left: 864px;
+    top: 1812px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid.banner {
+    background-color: black;
+    /* height: 639px; ant sekciju dydzio geriau nededame */
+    padding-top: 124px;
+    padding-bottom: 120px;
+}
+
+.container-fluid.banner h1 {
+    color: #FFFFFF;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 69px;
+    margin-bottom: 29px;
+    text-align: center;
+    
+}
+
+.container-fluid.banner h1 span{
+    color: #FF7000;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 69px;
+    
+}
+
+.container-fluid.banner .pavadinimasbanner p{
+    color: #FF7000;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 58px;
+}
+
+.container-fluid.banner .aprasymas p{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 47px;
+    text-align: center;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.donaterd button{
+    background: #FFFFFF;
+    width: 187px;
+    height: 55px;
+    color: #FF7000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.donateth button{
+    background: #FF7000;
+    width: 187px;
+    height: 55px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid.footer{
+    background-color: grey;
+    padding-top: 124px;
+    padding-bottom: 120px;
+
+}
+
+.logofooter{
+    margin-bottom: 30px;
+}
+
+.aprfooter{
+    color: #FFFFFF;
+    width: 227px;
+    height: 161px;
+    left: 375px;
+    top: 8968px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+
+.follow{
+    color: #FFFFFF;
+    width: 227px;
+    height: 161px;
+    left: 375px;
+    top: 8968px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.line-footer .line{
+    background: #FF7000;
+    width: 50px;
+    height: 1px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.nav-footer-tittle h5{
+    color: #FF7000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    
+}
+
+.nav-footer ul {
+    list-style-type: "> ";
+    padding-left: 15px;
+  }
+
+
+.nav-footer .nav-link{
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 17px;
+}
+
+.follow{
+    color: #FFFFFF;
+    width: 227px;
+    height: 130px;
+    left: 375px;
+    top: 8968px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+}
+
+
+ /* lg */
+  @media (min-width: 768px) and (max-width: 992px) {
+  .third-card.col-md-12.col-lg-4.col-xl-4.col-xxl-4 {
+    margin-top: 50px;
+    margin-left: 170px;
+    width: 50%;
+    }
+}
+/* md */
+@media (min-width: 576px) and (max-width: 767px) {
+    .third-card.col-sm-12.col-md-12.col-lg-4.col-xl-4.col-xxl-4 {
+        margin-top: 50px;
+    margin-left: 140px;
+    width: 50%;
+    }
+}
+/* sm */
+@media (min-width: 200px) and (max-width: 575px) {
+    .line{
+        margin-top: 100px;
+    }
+
+    .first-card.col-sm-6.col-md-6.col-lg-4.col-xl-4.col-xxl-4,
+    .second-card.col-sm-6.col-md-6.col-lg-4.col-xl-4.col-xxl-4,
+    .third-card.col-sm-12.col-md-12.col-lg-4.col-xl-4.col-xxl-4 {
+        margin-top: 50px;
+    }
+
+  }
