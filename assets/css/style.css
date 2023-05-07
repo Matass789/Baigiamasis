@@ -1,48 +1,4 @@
-.donate button {
-    background: #414770;
-    border-radius: 5px;
-    width: 165px;
-    height: 55px;
-    left: 1380px;
-    top: 32px;
-}
-
-button.btn-primary.nav-link.px-2 {
-    color: #C6D8D3;
-}
-
-.line{
-    background: #FF7000;
-    margin-top: 32px;
-    margin-bottom: 39px;
-    width: 100px;
-    height: 3px;
-    left: 910px;
-    top: 1257px;
-}
-
-
-.c-item {
-    height: 550px;
-
-}
-
-.c-img {
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.6);
-
-}
-
-
-h1,
-p{
-    margin: 0;
-}
-
-/* .d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none{
-    margin-right: 1!important;
-} */
+/* Headeris */
 
 .container-fluid.navi{
     background-color: #c6d8d3;
@@ -62,12 +18,26 @@ a.nav-link span {
     color: #d84797;
 }
 
+.login button {
+    background: #414770;
+    color: #C6D8D3;
+    border-radius: 5px;
+    width: 165px;
+    height: 55px;
+    left: 1380px;
+    top: 32px;
+}
 
 .sticky{
     position: fixed;
     top: 0;
     width: 100%;
 }
+
+/* ---- */
+
+
+
 
 /* Modal */
 
@@ -93,78 +63,54 @@ p.fs-5.py-3.mb-3 {
     color: #414770;
 }
 
+/* ---- */
 
 
 
 
 
+/* Karuselė */
 
-.container-fluid.hero {
-    height: calc(100vh - 70px);
-    background-color: black;
-    width: 100%;
-    left: 0px;
-    top: 115px;
-}
-
-
-.container-fluid.hero h1{
-    color: #FFFFFF;
-    width: 535px;
-    height: 138px;
-    left: 378px;
-    top: 403px;
+.c-item {
+    height: 550px;
 
 }
 
-.container-fluid.hero h1 span{
-    color: #FF7000;
-    width: 535px;
-    height: 138px;
-    left: 378px;
-    top: 403px;
-}
-
-.container-fluid.hero p{
-    color: #666666;
-    }
-
-.hero button{
-    margin-top: 40px;
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
 
 }
 
 
+h1,
+p{
+    margin: 0;
+}
 
 
-
-
-
+/* Pristatymas */
 
 .container-fluid.welcome{
-    background-color: white;
-    height: 5000px;
+    background-color: #c6d8d3;
+    
 }
 
-.container-fluid.welcome h1 {
+.container-fluid.welcome h2 {
     color: #333333;
     font-family: 'Lora';
     font-style: normal;
-    font-weight: 700;
-    font-size: 54px;
     line-height: 69px;
     text-align: center;
-    width: 457px;
     height: 69px;
 
 }
 
-.container-fluid.welcome h1 span{
-    color: #FF7000;
+.container-fluid.welcome h2 span{
+    color: #D84797;
     font-family: 'Lora';
     font-style: normal;
-    font-weight: 700;
-    font-size: 54px;
     line-height: 69px;
     text-align: center;
     width: 457px;
@@ -172,42 +118,58 @@ p.fs-5.py-3.mb-3 {
     
 }
 
-.container-fluid.welcome p{
-    color: #666666;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-}
-
 .container-fluid.welcome{
-    height: 150px;
-    margin-top: 126px;
-    margin-bottom: 32px;
+    height: 100px;
 
 }
 
+.line{
+    background: #D84797;
+    width: 900px;
+    height: 3px;
+    left: 910px;
+    top: 1257px;
+}
+
+/* ---- */
 
 
 
 
-
-
+/* Pagrindinės kortelės */
 
 
 .container-fluid.main.d-flex.justify-content-center {
     /* height: 679px;   ant sekciju dydzio geriau nededame */
     background: white;
+
+}
+
+
+.favorite.d-flex.justify-content-center h1{
+    color: #333333;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 69px;
+    text-align: center;
+    height: 69px;
+    margin-top: 50px;
 }
 
 .cards{
-    margin-top: 115px;
+    margin-top: 20px;
 }
 
 .card-head {
-    height: 190px;
+    height: 300px;
     background-color: #666666; 
+}
+
+img.favorite {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .card-body {
@@ -240,13 +202,80 @@ p.fs-5.py-3.mb-3 {
 }
 
 .donatend button {
-    background: #FF7000;
+    background: #414770;
+    color: #C6D8D3;
     border-radius: 5px;
-    width: 191px;
+    width: 165px;
     height: 55px;
-    left: 864px;
-    top: 1812px;
+    left: 1380px;
+    top: 32px;
 }
+
+
+
+/* ---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid.hero {
+    height: calc(100vh - 70px);
+    background-color: black;
+    width: 100%;
+    left: 0px;
+    top: 115px;
+}
+
+
+.container-fluid.hero h1{
+    color: #FFFFFF;
+    width: 535px;
+    height: 138px;
+    left: 378px;
+    top: 403px;
+
+}
+
+.container-fluid.hero h1 span{
+    color: #FF7000;
+    /* width: 535px;
+    height: 138px;
+    left: 378px;
+    top: 403px; */
+}
+
+.container-fluid.hero p{
+    color: #666666;
+    }
+
+.hero button{
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
