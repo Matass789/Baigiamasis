@@ -1,7 +1,12 @@
 /* Headeris */
 
-.container-fluid.navi{
+.container-fluid.header{
     background-color: #c6d8d3;
+    z-index: 500;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: #c6d8d3!important;
 }
 
 
@@ -83,22 +88,17 @@ p.fs-5.py-3.mb-3 {
 
 }
 
-.mygt button {
+.carousel-btn button {
     background: #414770;
-    color: #C6D8D3;
-    border-color: #414770;
+    color: #c6d8d3;
     border-radius: 5px;
     width: 165px;
     height: 55px;
-    left: 1380px;
-    top: 32px;
+    margin: auto;
 }
 
+/* ---- */
 
-h1,
-p{
-    margin: 0;
-}
 
 
 /* Pristatymas */
@@ -187,7 +187,7 @@ img.favorite {
     height: 100%;
 }
 
-.volunteer p{
+.atraste p{
     text-align: center;
     height: 24px;
 }
@@ -222,21 +222,12 @@ img.favorite {
     top: 32px;
 }
 
-
-
 /* ---- */
 
 
 
 
-
-
-
-
-
-
-
-
+/* Kodėl verta rinktis (Akordeonas) */
 
 .container-hero {
     display: flex;
@@ -251,6 +242,11 @@ img.favorite {
 .antras-hero {
     width: 50%;
 }
+
+.antras-hero h2 {
+    text-align: center;
+    margin-right: 37px;
+    }
 
 
 .container-fluid.hero {
@@ -280,24 +276,13 @@ img.favorite {
 }
 
 
+/* ---- */
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* akordijonas  */
+/* Akordijonas  */
 
 
 .accordion {
@@ -344,71 +329,10 @@ img.favorite {
     border-color: red;
 }
 
+/* ---- */
 
 
-.antras-hero h2 {
-text-align: center;
-margin-right: 37px;
-}
-
-
-
-
-/* ... */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* karjera */
+/* Prisijunk prie kolektyvo */
 
 .container-fluid.banner {
     background-color: black;
@@ -593,6 +517,25 @@ margin-right: 37px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* lg */
   @media (min-width: 768px) and (max-width: 992px) {
   .third-card.col-md-12.col-lg-4.col-xl-4.col-xxl-4 {
@@ -621,4 +564,20 @@ margin-right: 37px;
         margin-top: 50px;
     }
 
+  }
+
+  @media (max-width: 768px) {
+    .container-fluid.header .donate.d-flex.align-items-center {
+      display: none !important;
+    }
+  
+    .container-fluid.header .d-flex.w-100.justify-content-between {
+      justify-content: center !important;
+    }
+  
+    .container-fluid.header .custom-mobile {
+      flex-direction: column-reverse !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
   }

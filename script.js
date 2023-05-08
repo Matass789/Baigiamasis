@@ -1,3 +1,5 @@
+
+// Headeris
 window.onscroll = function() {myFunction()};
 
 
@@ -15,6 +17,12 @@ function myFunction() {
   }
 }
 
+// .....
+
+
+
+
+// Karusele
 
 const myCarouselElement = document.querySelector('#hero-carousel')
 const carousel = new bootstrap.Carousel(myCarouselElement, {
@@ -30,6 +38,12 @@ myCarousel.addEventListener('slide.bs.carousel', event => {
   direction("left")
 })
 
+// ....
+
+
+
+// Akordeonas
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -44,3 +58,5 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+
+// ....

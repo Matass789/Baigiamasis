@@ -3,6 +3,56 @@
   }
 
 
+  /* Headeris */
+
+.container-fluid.navi{
+    background-color: #c6d8d3;
+    z-index: 500;
+}
+
+.container-fluid.header{
+  background-color: #c6d8d3;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  background-color: #c6d8d3!important;
+}
+
+li.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+a.nav-link {
+  color: #414770;
+}
+
+a.nav-link span {
+  color: #d84797;
+}
+
+.login button {
+  background: #414770;
+  color: #C6D8D3;
+  border-radius: 5px;
+  width: 165px;
+  height: 55px;
+  left: 1380px;
+  top: 32px;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* .... */
+
+
+
+
+
 /* Modal */
 
 .modal-content.rounded-4.shadow {
@@ -27,16 +77,12 @@ p.fs-5.py-3.mb-3 {
   color: #414770;
 }
 
-/* ---- */
+/* .... */
 
 
 
 
-
-
-
-
-
+/* Kontaktai */
 
   .container-contacts {
     max-width: 1200px;
@@ -77,39 +123,7 @@ p.fs-5.py-3.mb-3 {
     width: 100%;
   }
 
-
-
-
-
-
-
-  .container-fluid.navi{
-    background-color: #c6d8d3;
-}
-
-
-li.nav-item {
-    display: flex;
-    align-items: center;
-}
-
-a.nav-link {
-    color: #414770;
-}
-
-a.nav-link span {
-    color: #d84797;
-}
-
-.login button {
-    background: #414770;
-    color: #C6D8D3;
-    border-radius: 5px;
-    width: 165px;
-    height: 55px;
-    left: 1380px;
-    top: 32px;
-}
+/* .... */
 
 
 
@@ -209,7 +223,7 @@ a.nav-link span {
   gap: 30px;
 }
 
-/*  */
+/* .... */
 
 
 
