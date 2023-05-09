@@ -5,46 +5,47 @@
 
   /* Headeris */
 
-.container-fluid.navi{
-    background-color: #c6d8d3;
+  .container-fluid.header{
+    background-color: #7A7265;
     z-index: 500;
 }
 
-.container-fluid.header{
-  background-color: #c6d8d3;
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: #7A7265!important;
 }
 
-nav.navbar.navbar-expand-lg.bg-body-tertiary {
-  background-color: #c6d8d3!important;
-}
 
 li.nav-item {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 a.nav-link {
-  color: #414770;
+    color: #F7EDF0;
 }
 
 a.nav-link span {
-  color: #d84797;
+    color: #0E1C36;
 }
 
 .login button {
-  background: #414770;
-  color: #C6D8D3;
-  border-radius: 5px;
-  width: 165px;
-  height: 55px;
-  left: 1380px;
-  top: 32px;
+    background: #0E1C36;
+    color: #F7EDF0;
+    border-radius: 5px;
+    width: 165px;
+    height: 55px;
+    left: 1380px;
+    top: 32px;
+}
+
+.login button:hover {
+    color: #7A7265;
 }
 
 .sticky{
-  position: fixed;
-  top: 0;
-  width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /* .... */
@@ -131,7 +132,7 @@ p.fs-5.py-3.mb-3 {
 /* footer */
 
 .container-fluid.footer{
-  background-color: grey;
+  background-color: #7A7265;
   padding-top: 50px;
   padding-bottom: 20px;
 
@@ -142,12 +143,12 @@ p.fs-5.py-3.mb-3 {
 }
 
 .aprfooter{
-  color: #FFFFFF;
+  color: #F7EDF0;
   width: 227px;
   height: 161px;
   left: 375px;
   top: 8968px;
-  font-family: 'Roboto';
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -157,12 +158,12 @@ p.fs-5.py-3.mb-3 {
 
 
 .follow{
-  color: #FFFFFF;
+  color: #F7EDF0;
   width: 227px;
   height: 161px;
   left: 375px;
   top: 8968px;
-  font-family: 'Roboto';
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -170,7 +171,7 @@ p.fs-5.py-3.mb-3 {
 }
 
 .line-footer .line{
-  background: pink;
+  background: #0E1C36;
   width: 50px;
   height: 1px;
   margin-top: 16px;
@@ -179,8 +180,8 @@ p.fs-5.py-3.mb-3 {
 }
 
 .nav-footer-tittle h5{
-  color: blue;
-  font-family: 'Roboto';
+  color: #0E1C36;
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -196,8 +197,8 @@ p.fs-5.py-3.mb-3 {
 
 
 .nav-footer .nav-link{
-  color: #FFFFFF;
-  font-family: 'Open Sans';
+  color: #F7EDF0;
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -206,12 +207,12 @@ p.fs-5.py-3.mb-3 {
 }
 
 .follow{
-  color: #FFFFFF;
+  color: #F7EDF0;
   width: 227px;
   height: 130px;
   left: 375px;
   top: 8968px;
-  font-family: 'Roboto';
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -276,4 +277,41 @@ p.fs-5.py-3.mb-3 {
   .container-contacts .shops-wrapper .shops-list .shop{
     width: 100%
   }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+  .footer-third.col-sm-12.col-md-6.col-lg-4.col-xl-6.col-xxl-3 {
+      margin-top: 30px;
+  }
+  
+  .footer-fourth.col-sm-12.col-md-6.col-lg-4.col-xl-6.col-xxl-3 {
+      padding-top: 30px;
+  }
+  
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .footer-first.col-sm-12.col-md-6.col-lg-4.col-xl-6.col-xxl-3 {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+  .footer-third.col-sm-12.col-md-6.col-lg-4.col-xl-6.col-xxl-3 {
+      margin-top: 30px;
+  }
+  
+  .footer-fourth.col-sm-12.col-md-6.col-lg-4.col-xl-6.col-xxl-3 {
+      padding-top: 30px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.container-fluid.footer .container{
+  display:inline-block block
+}
 }
