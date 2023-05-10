@@ -562,6 +562,12 @@ color: #F7EDF0;
     margin-top: 30px;
 }
 
+.fourth-card.col-sm-6.col-md-6.col-lg-6.col-xl-6.col-xxl-3 {
+        padding-top: 50px;
+        margin: auto;
+        width: 40%;
+    }
+
 .footer-fourth.col-sm-12.col-md-6.col-lg-4.col-xl-6.col-xxl-3 {
     padding-top: 30px;
 }
@@ -632,9 +638,16 @@ color: #F7EDF0;
         display:inline-block block
     }
 
+    .container-fluid.hero {
+        height: 800px;
+    }
+
+    .pirmas-hero img.favorite {
+    padding-top: 86px;
+    }
+
 
 }
-
 
 
 @media (min-width: 501px) and (max-width: 767px) {
@@ -669,16 +682,26 @@ color: #F7EDF0;
         padding-top: 50px;
     }
 
+    .container-fluid.welcome h2 {
+        margin-top: 10px;
+        line-height: 40px;
+        height: 69px;
+    }
+
+    .container-fluid.welcome h2 span {
+        line-height: 0px;
+    }
+
     
     .container-fluid.welcome{
-        height: 160px;
+        height: 130px;
     }
 
     .line{
-        margin-top: 50px;
+        margin-top: 25px;
     }
 
-
+    
     
 
     .container-fluid.banner .pavadinimasbanner p{
@@ -711,11 +734,11 @@ color: #F7EDF0;
         text-align: center;
         margin-top: 1px;
         line-height: 41px;
+        padding-top: 30px;
     }
 
     .container-fluid.banner .pavadinimasbanner p{
         text-align: center;
-
         font-size: 20px;
         font-family: 'Lora';
         font-style: normal;
@@ -787,40 +810,28 @@ color: #F7EDF0;
 
 @media (min-width: 280px) and (max-width: 361px) {
     .container-fluid.welcome h2 {
-        line-height: 69px;
+        margin-top: 10px;
+        line-height: 40px;
         height: 69px;
-        font-size: 15px;
-        margin-bottom: 0px;
-        font-family: 'Lora';
-        font-style: normal;
-    
     }
-    
-    .container-fluid.welcome h2 span{
-        color: #0E1C36;
-        line-height: 69px;
-        height: 69px;
-        font-size: 15px;
-        font-family: 'Lora';
-        font-style: normal;
+
+    .container-fluid.welcome h2 span {
+        line-height: 0px;
     }
+
     
     .container-fluid.welcome{
-        height: 150px;
-    
+        height: 130px;
     }
-    
+
     .line{
-        background: #0E1C36;
-        width: 900px;
-        height: 3px;
-        margin-top: 50px;
-    
+        margin-top: 25px;
     }
+
         
     }
 
-/* sm */
+
 @media (min-width: 361px) and (max-width: 575px) {
 
     .container-fluid.welcome h2 {
@@ -855,22 +866,6 @@ color: #F7EDF0;
     }
         
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
